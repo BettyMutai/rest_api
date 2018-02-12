@@ -14,4 +14,4 @@ class ModelTestCase(TestCase):
         old_count = Bucketlist.objects.count()
         self.bucketlist.save()
         new_count = Bucketlist.objects.count()
-        self.assertNotEqual(old_count, new_count)
+        self.assertNotEqual(old_count,new_count)
